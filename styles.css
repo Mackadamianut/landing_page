@@ -1,0 +1,116 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1f2937;
+    margin: 10px 0px;
+    /* border: 2px solid red; */
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 96px 0 96px;
+    
+}
+
+#headerlogo {
+    margin-right: auto;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.main-container {
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 150px 96px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.main-container p {
+    font-size: 18px;
+    color: #bebebe;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.image {
+    background-color: darkgray;
+    margin-left: 200px;
+    width: 700px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main-container button {
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 24px;
+    font-weight: bold;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    background-color: #F9FAF8;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.info-container h1 {
+    background-color: #F9FAF8;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.sub-images {
+    display: flex;
+    justify-content: center;
+    background-color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sub-images div {
+    background-color: #F9FAF8;
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    margin: 50px 25px 5px;
+    border-radius: 10px;
+ }
+
+ .sub-text {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     background-color: #F9FAF8;
+     margin-top: 0px;
+ }
+ 
+ .sub-text p {
+    background-color: #F9FAF8;
+    height: 150px;
+    width: 150px;
+    margin: 5px 29px;
+    color: #757575;
+ }
+ 
